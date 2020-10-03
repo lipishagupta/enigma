@@ -5,7 +5,7 @@ root = Tk()
 root.geometry('800x700')
 
 root.title('HELLO WORLD')
-img = ImageTk.PhotoImage(Image.open('C:/Users/LIPISHA GUPTA/Downloads/mascot.jpeg'))
+img = ImageTk.PhotoImage(Image.open('assets/mascot.jpeg'))
 c = Canvas(root, width=800, height=700,bg='#474545')
 c.create_image(400, 300, image=img)
 c.place(x=0, y=0)
